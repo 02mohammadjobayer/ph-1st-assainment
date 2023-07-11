@@ -167,6 +167,64 @@ body{
 }
 
 /*Our Featured Section End*/
+
+/*Offer Section Start*/
+.offer_section{
+    background: #e5547331;
+    margin-bottom: 50px;
+    display: flex;
+    
+}
+.hot_deal{
+    height: 400px;
+    padding-top: 150px;
+    display: flexbox;
+    f
+    flex-wrap: wrap;
+    
+}
+.hot_deal_pro{
+    text-align: center;
+    width: 1000px;
+    float: left;
+    
+}
+.hot_deal_pro p{
+    color: rgba(0, 0, 0, 0.408);
+}
+.fiften{
+    color: #E55473;
+}
+.singin_button{
+    color: white;
+    border: none;
+    background: #E55473;
+    padding:12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.singin_button:hover{
+    background-color: black;
+    color: #E55473;
+    animation-duration: 1s;
+}
+.offer_flower_img{
+    float: right;
+    padding-top: 100px;
+}
+
+/*Offer Section End*/
+
+
+
+
+
+
+
+
+
+
 .subscribe_section img{
     display: block;
     margin: auto;
@@ -178,7 +236,7 @@ body{
 .subscribe_section h1{
     text-align: center;
 }
-.subscribe_section button{
+.button{
     color: white;
     border: none;
     background: #E55473;
@@ -190,6 +248,11 @@ body{
     font-size: 16px;
     margin-top: -250px;
 
+}
+.button:hover{
+    background-color: black;
+    color: #E55473;
+    animation-duration: 1s;
 }
 .subscribe_section input{
     position: absolute;
