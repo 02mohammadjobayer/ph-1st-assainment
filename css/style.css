@@ -64,35 +64,50 @@ body{
     padding-bottom: 15px;
 }
 .first_img{
-    width: 464px;
-    height: 538px;
+    width: 410px;
+    height: 498px;
     background: #a721624e;
     border-radius: 300px 300px 0px 0px;
-    position: relative;
+    position: relative;  
 }
-.flower_img{
-    margin-top: 110px;
+.first_flower_img{
+    margin-top: 70px;
     margin-left: 55px;
 }
-.third_flower_img{
-    margin-top: 70px;
-    margin-left: 65px;
+.first_img h3{
+    text-align: center;
 }
+
 .second_img{
-    width: 464px;
-    height: 538px;
+    width: 410px;
+    height: 498px;
     background: #0598a04c;
     border-radius: 300px 300px 0px 0px;
     position: relative;
-    margin-left: 15px;
+    margin-left: 10px;
+    
+}
+.second_img h3{
+    text-align: center;
+}
+.second_flower_img{
+    margin-top: 125px;
+    margin-left: 65px;
 }
 .third_img{
-    width: 464px;
-    height: 538px;
+    width: 410px;
+    height: 498px;
     background: #477d1154;
     border-radius: 300px 300px 0px 0px;
     position: relative;
-    margin-left: 15px;
+    margin-left: 10px;   
+}
+.third_img h3{
+    text-align: center;
+}
+.third_flower_img{
+    margin-top: 28px;
+    margin-left: 65px;
 }
 .featured_img{
     display: flex;
@@ -100,6 +115,7 @@ body{
     align-items: left;
     flex-wrap: wrap;
     padding: 40px;
+    padding-bottom: 200px;
     
     
     
