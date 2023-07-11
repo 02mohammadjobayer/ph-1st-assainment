@@ -179,7 +179,6 @@ body{
     height: 400px;
     padding-top: 150px;
     display: flexbox;
-    f
     flex-wrap: wrap;
     
 }
@@ -216,10 +215,28 @@ body{
 
 /*Offer Section End*/
 
+/*Instragram Section Start*/
+.instragram_section{
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.text_ins{
+    text-align: center;
+}
+.text_ins p{
+    color: rgba(0, 0, 0, 0.575);
+    padding-bottom: 20px;
+}
+.ins_img{
+    width: 300px;
+    padding-left: 10px;
+}
+.ins_img_all{
+    align-items: center;
+    padding-left: 50px;
+}
 
-
-
-
+/*Instragram Section Ends*/
 
 
 
