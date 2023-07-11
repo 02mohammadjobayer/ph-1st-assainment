@@ -1,7 +1,5 @@
-
-*{
-    width: auto;
-    height: auto;
+body{
+    
     font-family: Roboto;
     margin: 0;
     padding: 0;
@@ -9,6 +7,95 @@
 
 
 
+/*Header Section Start*/
+.header_section{
+    width: auto;
+    height: auto;
+    background: #e5547331;
+    display: block;
+    margin: 0;
+    position: center;
+    margin-bottom: 30px;
+}
+.all_header_section{
+    width: auto;
+    display: inline;  
+}
+.header_text_button{
+    padding: 150px 0px 0px 110px;
+    display: block;
+    width: 600px;
+}
+.header_text_button h1{
+    margin: 0;
+    font-size: 50px;
+}
+.header_text_button p{
+    padding: 10px 0 ;    
+}
+.header_text_button button{
+    color: white;
+    border: none;
+    background: #E55473;
+    padding:12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.header_img{
+    margin-left: 52%;
+    margin-top: -30%;
+    width: 570px;
+}
+
+/*Header Section End*/
+
+
+/*Our Featured Section Start*/
+
+
+
+/*Our Featured Section End*/
+.subscribe_section img{
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 1024px;
+    height: auto;
+    padding-bottom: 50px;
+}
+.subscribe_section h1{
+    text-align: center;
+}
+.subscribe_section button{
+    color: white;
+    border: none;
+    background: #E55473;
+    padding:12px 24px;
+    position: absolute;
+    right: 20%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: -250px;
+
+}
+.subscribe_section input{
+    position: absolute;
+    left: 35%;
+    padding:12px 24px;
+    border: none;
+    background: bisque;
+    border-radius: 5px;
+    width: 400px;
+    margin-top: -250px;
+}
+.input_button{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
@@ -22,13 +109,27 @@
 
 
 
+/*Fotter Section CSS Start*/
 .fotter-section{
     text-align: center;
     background-color: black;
     height: 300px;
+    
 
 }
 .fotter-section h1{
     color: rgb(246, 78, 78);
     padding: 30px ;
+    padding-top: 50px;
 }
+.fotter-section p{
+    color: white;
+    padding: 6px;
+    font-size: 13px;
+}
+.fotter-section h4{
+    color:rgb(69, 69, 69);
+    padding: 30px;
+    font-size: 14px;
+}
+/*Fotter Section CSS End*/
