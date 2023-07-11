@@ -54,10 +54,14 @@ body{
 /*Our Featured Section Start*/
 .our_featured_flower{
     padding-top: 50px;
+    padding-bottom: 100px;
     
 }
 .our_featured_text{
     text-align: center;
+}
+.our_featured_text p{
+    color: rgba(0, 0, 0, 0.469);
 }
 .our_featured_text h1{
     font-size: 30px;
@@ -115,10 +119,51 @@ body{
     align-items: left;
     flex-wrap: wrap;
     padding: 40px;
-    padding-bottom: 200px;
+    padding-bottom: 200px;  
+}
+.support{
+    width: 1024px;
+    height: 320px;
+    background: #dfdfdf;
+    position: center;
+    padding-left: 80px;
+    margin: auto;
+    border-radius: 10px;
+}
+.delivery_system{
+    display: inline;
+    justify-content: center;
+    float: left;
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-top: 100px;
+}
+.delivery_system img{
+    padding-left: 80px;
+}
+.fresh_flower_system{
+    display: inline;
+    justify-content: center;
+    float: left;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 50px;
+    padding-top: 100px;
+}
+.fresh_flower_system img{
+    padding-left: 80px;
+}
+.support_system{
+    display: flexbox;
+    float: left;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 50px;
+    padding-top: 100px;
     
-    
-    
+}
+.support_system img{
+    padding-left: 20px;
 }
 
 /*Our Featured Section End*/
