@@ -228,8 +228,11 @@ body{
     padding-bottom: 20px;
 }
 .ins_img{
-    width: 300px;
-    padding-left: 10px;
+    width: 250px;
+}
+.ins_img_a{
+    width: 250px;
+    padding-left: 118px;
 }
 .ins_img_all{
     align-items: center;
@@ -241,17 +244,27 @@ body{
 
 
 
-
-.subscribe_section img{
-    display: block;
-    margin: auto;
-    position: relative;
-    width: 1024px;
-    height: auto;
+/*Subscribe Section Start*/
+.subscribe_section{
     padding-bottom: 50px;
 }
-.subscribe_section h1{
+.subscribe_section img{
+    display: flex;
+    margin: auto;
+    width: 1024px;
+    height: auto;
+    
+}
+
+.sub_text{
+    position: absolute;
     text-align: center;
+    padding-left: 550px;
+    padding-top: 80px;
+}
+.sub_text h1{
+    font-size: 30px;
+    
 }
 .button{
     color: white;
@@ -259,11 +272,12 @@ body{
     background: #E55473;
     padding:12px 24px;
     position: absolute;
-    right: 20%;
     cursor: pointer;
     border-radius: 5px;
     font-size: 16px;
-    margin-top: -250px;
+    margin-top: 450px;
+    margin-left: 850px;
+    
 
 }
 .button:hover{
@@ -273,13 +287,13 @@ body{
 }
 .subscribe_section input{
     position: absolute;
-    left: 35%;
+    left: 28%;
     padding:12px 24px;
     border: none;
     background: bisque;
     border-radius: 5px;
     width: 400px;
-    margin-top: -250px;
+    margin-top: 450px;
 }
 .input_button{
     margin: auto;
@@ -288,28 +302,16 @@ body{
     align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/*Subscribe Section End*/
 
 /*Fotter Section CSS Start*/
 .fotter-section{
     text-align: center;
     background-color: black;
     height: 300px;
-    
-
 }
 .fotter-section h1{
-    color: rgb(246, 78, 78);
+    color: white;
     padding: 30px ;
     padding-top: 50px;
 }
@@ -323,4 +325,5 @@ body{
     padding: 30px;
     font-size: 14px;
 }
+
 /*Fotter Section CSS End*/
