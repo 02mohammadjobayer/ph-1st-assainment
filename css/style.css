@@ -241,9 +241,6 @@ body{
 
 /*Instragram Section Ends*/
 
-
-
-
 /*Subscribe Section Start*/
 .subscribe_section{
     padding-bottom: 50px;
@@ -255,7 +252,6 @@ body{
     height: auto;
     
 }
-
 .sub_text{
     position: absolute;
     text-align: center;
@@ -277,8 +273,6 @@ body{
     font-size: 16px;
     margin-top: 450px;
     margin-left: 850px;
-    
-
 }
 .button:hover{
     background-color: black;
@@ -301,7 +295,6 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-
 /*Subscribe Section End*/
 
 /*Fotter Section CSS Start*/
@@ -325,5 +318,4 @@ body{
     padding: 30px;
     font-size: 14px;
 }
-
 /*Fotter Section CSS End*/
